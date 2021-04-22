@@ -59,9 +59,10 @@ function LoginScreen({navigation}) {
           style={{color: colors.yellow, fontWeight: '600', marginVertical: 20}}>
           Use Mobile Number
         </Text>
-        <Text>
-          Note:Email:user@gmail.com and
-               pwd:123456
+        <Text style={{textAlign:'justify'}}>
+          Note:Email: "user@gmail.com" and
+               pwd:"123456",{"\n\n"}This App Backend was developed by myself hosted in a VPS.
+               {"\n\n"}After Adding products in Vendor app, Swipe Down(Pull to refresh) the load the contents on the User App.
         </Text>
       </View>
       <View style={styles.buttonContainer}>

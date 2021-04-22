@@ -18,13 +18,14 @@ const styles = StyleSheet.create({
     borderBottomColor: colors.darkGrey,
     borderBottomWidth: 1,
     padding: 10,
+    alignItems : 'center',
     marginTop: 20,
     width: '100%',
   },
   image: {
     width: 30,
     height: 30,
-    resizeMode: 'contain',
+    resizeMode : 'contain'
   },
 
   textInput: {
