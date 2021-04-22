@@ -59,6 +59,10 @@ function LoginScreen({navigation}) {
           style={{color: colors.yellow, fontWeight: '600', marginVertical: 20}}>
           Use Mobile Number
         </Text>
+        <Text>
+          Note:Email:user@gmail.com and
+               pwd:123456
+        </Text>
       </View>
       <View style={styles.buttonContainer}>
         <AppButton title="Login" onPress={sendLoginRequest} />
